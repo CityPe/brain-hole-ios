@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  brain-hole-ios
+//
+//  Created by Chen on 2017/11/23.
+//  Copyright © 2017年 Xihe. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define RGBA(r,g,b,a)  [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+#endif /* PrefixHeader_pch */
