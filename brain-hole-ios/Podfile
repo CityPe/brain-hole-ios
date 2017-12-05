@@ -1,0 +1,18 @@
+platform :ios, '9.0'
+
+target 'brain-hole-ios' do
+    pod 'Masonry'
+    pod 'pop'
+    pod "PLeakSniffer"
+
+  target 'brain-hole-iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'brain-hole-iosUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

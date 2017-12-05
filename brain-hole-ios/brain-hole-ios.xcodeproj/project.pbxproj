@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C9F8042F451FC18C55ED38B /* libPods-brain-hole-iosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABA979D49AC25B5598F6058 /* libPods-brain-hole-iosUITests.a */; };
+		3616183A2CB44531528363EC /* libPods-brain-hole-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDAB901852275460B0B265E /* libPods-brain-hole-ios.a */; };
+		68E1EE283B9ACA85EF21D9F4 /* libPods-brain-hole-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB96E2A8F3F90F678BE1263B /* libPods-brain-hole-iosTests.a */; };
 		747FDC541FC69F0200A5C290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FDC531FC69F0200A5C290 /* AppDelegate.m */; };
 		747FDC5C1FC69F0200A5C290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747FDC5B1FC69F0200A5C290 /* Assets.xcassets */; };
 		747FDC5F1FC69F0200A5C290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747FDC5D1FC69F0200A5C290 /* LaunchScreen.storyboard */; };
@@ -14,6 +17,25 @@
 		747FDC6C1FC69F0200A5C290 /* brain_hole_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FDC6B1FC69F0200A5C290 /* brain_hole_iosTests.m */; };
 		747FDC771FC69F0200A5C290 /* brain_hole_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FDC761FC69F0200A5C290 /* brain_hole_iosUITests.m */; };
 		747FDC861FC6A08B00A5C290 /* BHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FDC851FC6A08B00A5C290 /* BHHomeViewController.m */; };
+		747FDC8C1FC6AB0000A5C290 /* BHIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FDC8B1FC6AB0000A5C290 /* BHIndexViewController.m */; };
+		747FDC921FC6E2B600A5C290 /* BHAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FDC911FC6E2B600A5C290 /* BHAboutMeViewController.m */; };
+		748FC4011FCD624B0048DE36 /* BHSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748FC4001FCD624B0048DE36 /* BHSocialViewController.m */; };
+		748FC4051FCEA3130048DE36 /* BHSocialPointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 748FC4041FCEA3130048DE36 /* BHSocialPointCell.m */; };
+		749B3A9C1FCBB78E0034035E /* BHDataAnalyseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3A9B1FCBB78E0034035E /* BHDataAnalyseViewController.m */; };
+		749B3A9F1FCBB7B90034035E /* BHWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3A9E1FCBB7B90034035E /* BHWorldViewController.m */; };
+		749B3AAD1FCBFC500034035E /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3AA71FCBFC500034035E /* SwipeView.m */; };
+		749B3AAE1FCBFC500034035E /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3AA81FCBFC500034035E /* OverlayView.m */; };
+		749B3AAF1FCBFC500034035E /* DraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3AA91FCBFC500034035E /* DraggableCardView.m */; };
+		749B3AB31FCCFC010034035E /* BHWorldDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3AB21FCCFC010034035E /* BHWorldDetailModel.m */; };
+		749B3AB61FCCFCC50034035E /* BHWorldDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749B3AB51FCCFCC40034035E /* BHWorldDetailView.m */; };
+		74C3C0D21FCFFA7E00BAE0C9 /* BHHistoryInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0D11FCFFA7E00BAE0C9 /* BHHistoryInfoCell.m */; };
+		74C3C0E11FD007B800BAE0C9 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0D51FD007B800BAE0C9 /* UUBar.m */; };
+		74C3C0E21FD007B800BAE0C9 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0D81FD007B800BAE0C9 /* UUChartLabel.m */; };
+		74C3C0E31FD007B800BAE0C9 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0DA1FD007B800BAE0C9 /* UULineChart.m */; };
+		74C3C0E41FD007B800BAE0C9 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0DC1FD007B800BAE0C9 /* UUBarChart.m */; };
+		74C3C0E51FD007B800BAE0C9 /* UUChartConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0DD1FD007B800BAE0C9 /* UUChartConst.m */; };
+		74C3C0E61FD007B800BAE0C9 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0DE1FD007B800BAE0C9 /* UUChart.m */; };
+		74C3C0E91FD009F800BAE0C9 /* BHBHDataAnalyseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3C0E81FD009F800BAE0C9 /* BHBHDataAnalyseCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BE4C9D936EE12F96FA5AF1A /* Pods-brain-hole-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brain-hole-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brain-hole-iosTests/Pods-brain-hole-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		5496B748D420D951F5859FFF /* Pods-brain-hole-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brain-hole-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-brain-hole-ios/Pods-brain-hole-ios.release.xcconfig"; sourceTree = "<group>"; };
 		747FDC4F1FC69F0200A5C290 /* brain-hole-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brain-hole-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747FDC521FC69F0200A5C290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		747FDC531FC69F0200A5C290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +74,51 @@
 		747FDC841FC6A08B00A5C290 /* BHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHHomeViewController.h; sourceTree = "<group>"; };
 		747FDC851FC6A08B00A5C290 /* BHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHHomeViewController.m; sourceTree = "<group>"; };
 		747FDC871FC6A2A300A5C290 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		747FDC8A1FC6AB0000A5C290 /* BHIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHIndexViewController.h; sourceTree = "<group>"; };
+		747FDC8B1FC6AB0000A5C290 /* BHIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHIndexViewController.m; sourceTree = "<group>"; };
+		747FDC901FC6E2B600A5C290 /* BHAboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHAboutMeViewController.h; sourceTree = "<group>"; };
+		747FDC911FC6E2B600A5C290 /* BHAboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHAboutMeViewController.m; sourceTree = "<group>"; };
+		748FC3FF1FCD624B0048DE36 /* BHSocialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHSocialViewController.h; sourceTree = "<group>"; };
+		748FC4001FCD624B0048DE36 /* BHSocialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHSocialViewController.m; sourceTree = "<group>"; };
+		748FC4031FCEA3130048DE36 /* BHSocialPointCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHSocialPointCell.h; sourceTree = "<group>"; };
+		748FC4041FCEA3130048DE36 /* BHSocialPointCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHSocialPointCell.m; sourceTree = "<group>"; };
+		749B3A9A1FCBB78E0034035E /* BHDataAnalyseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHDataAnalyseViewController.h; sourceTree = "<group>"; };
+		749B3A9B1FCBB78E0034035E /* BHDataAnalyseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHDataAnalyseViewController.m; sourceTree = "<group>"; };
+		749B3A9D1FCBB7B90034035E /* BHWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHWorldViewController.h; sourceTree = "<group>"; };
+		749B3A9E1FCBB7B90034035E /* BHWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHWorldViewController.m; sourceTree = "<group>"; };
+		749B3AA71FCBFC500034035E /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		749B3AA81FCBFC500034035E /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		749B3AA91FCBFC500034035E /* DraggableCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableCardView.m; sourceTree = "<group>"; };
+		749B3AAA1FCBFC500034035E /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		749B3AAB1FCBFC500034035E /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		749B3AAC1FCBFC500034035E /* DraggableCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableCardView.h; sourceTree = "<group>"; };
+		749B3AB11FCCFC010034035E /* BHWorldDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHWorldDetailModel.h; sourceTree = "<group>"; };
+		749B3AB21FCCFC010034035E /* BHWorldDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHWorldDetailModel.m; sourceTree = "<group>"; };
+		749B3AB41FCCFCC40034035E /* BHWorldDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHWorldDetailView.h; sourceTree = "<group>"; };
+		749B3AB51FCCFCC40034035E /* BHWorldDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHWorldDetailView.m; sourceTree = "<group>"; };
+		74C3C0D01FCFFA7E00BAE0C9 /* BHHistoryInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHHistoryInfoCell.h; sourceTree = "<group>"; };
+		74C3C0D11FCFFA7E00BAE0C9 /* BHHistoryInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHHistoryInfoCell.m; sourceTree = "<group>"; };
+		74C3C0D51FD007B800BAE0C9 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBar.m; sourceTree = "<group>"; };
+		74C3C0D61FD007B800BAE0C9 /* UUChartConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartConst.h; sourceTree = "<group>"; };
+		74C3C0D71FD007B800BAE0C9 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBarChart.h; sourceTree = "<group>"; };
+		74C3C0D81FD007B800BAE0C9 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
+		74C3C0D91FD007B800BAE0C9 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChart.h; sourceTree = "<group>"; };
+		74C3C0DA1FD007B800BAE0C9 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
+		74C3C0DB1FD007B800BAE0C9 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBar.h; sourceTree = "<group>"; };
+		74C3C0DC1FD007B800BAE0C9 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBarChart.m; sourceTree = "<group>"; };
+		74C3C0DD1FD007B800BAE0C9 /* UUChartConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartConst.m; sourceTree = "<group>"; };
+		74C3C0DE1FD007B800BAE0C9 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChart.m; sourceTree = "<group>"; };
+		74C3C0DF1FD007B800BAE0C9 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartLabel.h; sourceTree = "<group>"; };
+		74C3C0E01FD007B800BAE0C9 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
+		74C3C0E71FD009F800BAE0C9 /* BHBHDataAnalyseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHBHDataAnalyseCell.h; sourceTree = "<group>"; };
+		74C3C0E81FD009F800BAE0C9 /* BHBHDataAnalyseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBHDataAnalyseCell.m; sourceTree = "<group>"; };
+		7D92F8B73A1DA74F05228F17 /* Pods-brain-hole-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brain-hole-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brain-hole-ios/Pods-brain-hole-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABA979D49AC25B5598F6058 /* libPods-brain-hole-iosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-brain-hole-iosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61697E40A98E67DB2D6849C /* Pods-brain-hole-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brain-hole-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brain-hole-iosTests/Pods-brain-hole-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7683E9E8D8F9743CF9B1B42 /* Pods-brain-hole-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brain-hole-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brain-hole-iosUITests/Pods-brain-hole-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB96E2A8F3F90F678BE1263B /* libPods-brain-hole-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-brain-hole-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD3BEC332F32F9B16BF2EAA /* Pods-brain-hole-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brain-hole-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brain-hole-iosUITests/Pods-brain-hole-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDDAB901852275460B0B265E /* libPods-brain-hole-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-brain-hole-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3616183A2CB44531528363EC /* libPods-brain-hole-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E1EE283B9ACA85EF21D9F4 /* libPods-brain-hole-iosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +142,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9F8042F451FC18C55ED38B /* libPods-brain-hole-iosUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16525ACC49DF766FB7FC2F03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D92F8B73A1DA74F05228F17 /* Pods-brain-hole-ios.debug.xcconfig */,
+				5496B748D420D951F5859FFF /* Pods-brain-hole-ios.release.xcconfig */,
+				B61697E40A98E67DB2D6849C /* Pods-brain-hole-iosTests.debug.xcconfig */,
+				3BE4C9D936EE12F96FA5AF1A /* Pods-brain-hole-iosTests.release.xcconfig */,
+				C7683E9E8D8F9743CF9B1B42 /* Pods-brain-hole-iosUITests.debug.xcconfig */,
+				DAD3BEC332F32F9B16BF2EAA /* Pods-brain-hole-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		747FDC461FC69F0200A5C290 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +169,8 @@
 				747FDC6A1FC69F0200A5C290 /* brain-hole-iosTests */,
 				747FDC751FC69F0200A5C290 /* brain-hole-iosUITests */,
 				747FDC501FC69F0200A5C290 /* Products */,
+				16525ACC49DF766FB7FC2F03 /* Pods */,
+				D749DCD37B1C018CC20C4E16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,15 +187,17 @@
 		747FDC511FC69F0200A5C290 /* brain-hole-ios */ = {
 			isa = PBXGroup;
 			children = (
-				747FDC521FC69F0200A5C290 /* AppDelegate.h */,
-				747FDC531FC69F0200A5C290 /* AppDelegate.m */,
+				747FDC871FC6A2A300A5C290 /* PrefixHeader.pch */,
 				747FDC5B1FC69F0200A5C290 /* Assets.xcassets */,
 				747FDC5D1FC69F0200A5C290 /* LaunchScreen.storyboard */,
 				747FDC601FC69F0200A5C290 /* Info.plist */,
-				747FDC611FC69F0200A5C290 /* main.m */,
-				747FDC841FC6A08B00A5C290 /* BHHomeViewController.h */,
-				747FDC851FC6A08B00A5C290 /* BHHomeViewController.m */,
-				747FDC871FC6A2A300A5C290 /* PrefixHeader.pch */,
+				748FC3FD1FCD4CFD0048DE36 /* index */,
+				748FC3FE1FCD62150048DE36 /* community */,
+				749B3AA41FCBE3E30034035E /* login */,
+				749B3AA31FCBE3D00034035E /* data */,
+				749B3AA21FCBE3B50034035E /* idea */,
+				749B3AA11FCBE39F0034035E /* about */,
+				749B3AA01FCBE38D0034035E /* world */,
 			);
 			path = "brain-hole-ios";
 			sourceTree = "<group>";
@@ -131,6 +220,156 @@
 			path = "brain-hole-iosUITests";
 			sourceTree = "<group>";
 		};
+		748FC3FD1FCD4CFD0048DE36 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				747FDC8A1FC6AB0000A5C290 /* BHIndexViewController.h */,
+				747FDC8B1FC6AB0000A5C290 /* BHIndexViewController.m */,
+				747FDC521FC69F0200A5C290 /* AppDelegate.h */,
+				747FDC531FC69F0200A5C290 /* AppDelegate.m */,
+				747FDC611FC69F0200A5C290 /* main.m */,
+			);
+			path = index;
+			sourceTree = "<group>";
+		};
+		748FC3FE1FCD62150048DE36 /* community */ = {
+			isa = PBXGroup;
+			children = (
+				748FC4021FCE93210048DE36 /* view  */,
+				748FC3FF1FCD624B0048DE36 /* BHSocialViewController.h */,
+				748FC4001FCD624B0048DE36 /* BHSocialViewController.m */,
+			);
+			path = community;
+			sourceTree = "<group>";
+		};
+		748FC4021FCE93210048DE36 /* view  */ = {
+			isa = PBXGroup;
+			children = (
+				748FC4031FCEA3130048DE36 /* BHSocialPointCell.h */,
+				748FC4041FCEA3130048DE36 /* BHSocialPointCell.m */,
+			);
+			path = "view ";
+			sourceTree = "<group>";
+		};
+		749B3AA01FCBE38D0034035E /* world */ = {
+			isa = PBXGroup;
+			children = (
+				749B3A9D1FCBB7B90034035E /* BHWorldViewController.h */,
+				749B3A9E1FCBB7B90034035E /* BHWorldViewController.m */,
+				749B3AB01FCCFBE10034035E /* model */,
+				749B3AA51FCBF6D60034035E /* view */,
+			);
+			path = world;
+			sourceTree = "<group>";
+		};
+		749B3AA11FCBE39F0034035E /* about */ = {
+			isa = PBXGroup;
+			children = (
+				74C3C0D31FCFFA8600BAE0C9 /* view */,
+				747FDC901FC6E2B600A5C290 /* BHAboutMeViewController.h */,
+				747FDC911FC6E2B600A5C290 /* BHAboutMeViewController.m */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		749B3AA21FCBE3B50034035E /* idea */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = idea;
+			sourceTree = "<group>";
+		};
+		749B3AA31FCBE3D00034035E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				74C3C0D41FD007B800BAE0C9 /* UUChart */,
+				749B3A9A1FCBB78E0034035E /* BHDataAnalyseViewController.h */,
+				749B3A9B1FCBB78E0034035E /* BHDataAnalyseViewController.m */,
+				74C3C0E71FD009F800BAE0C9 /* BHBHDataAnalyseCell.h */,
+				74C3C0E81FD009F800BAE0C9 /* BHBHDataAnalyseCell.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		749B3AA41FCBE3E30034035E /* login */ = {
+			isa = PBXGroup;
+			children = (
+				747FDC841FC6A08B00A5C290 /* BHHomeViewController.h */,
+				747FDC851FC6A08B00A5C290 /* BHHomeViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		749B3AA51FCBF6D60034035E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				749B3AA61FCBFC500034035E /* KolodaView */,
+				749B3AB41FCCFCC40034035E /* BHWorldDetailView.h */,
+				749B3AB51FCCFCC40034035E /* BHWorldDetailView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		749B3AA61FCBFC500034035E /* KolodaView */ = {
+			isa = PBXGroup;
+			children = (
+				749B3AAB1FCBFC500034035E /* OverlayView.h */,
+				749B3AA81FCBFC500034035E /* OverlayView.m */,
+				749B3AAC1FCBFC500034035E /* DraggableCardView.h */,
+				749B3AA91FCBFC500034035E /* DraggableCardView.m */,
+				749B3AAA1FCBFC500034035E /* SwipeView.h */,
+				749B3AA71FCBFC500034035E /* SwipeView.m */,
+			);
+			path = KolodaView;
+			sourceTree = "<group>";
+		};
+		749B3AB01FCCFBE10034035E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				749B3AB11FCCFC010034035E /* BHWorldDetailModel.h */,
+				749B3AB21FCCFC010034035E /* BHWorldDetailModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		74C3C0D31FCFFA8600BAE0C9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				74C3C0D01FCFFA7E00BAE0C9 /* BHHistoryInfoCell.h */,
+				74C3C0D11FCFFA7E00BAE0C9 /* BHHistoryInfoCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		74C3C0D41FD007B800BAE0C9 /* UUChart */ = {
+			isa = PBXGroup;
+			children = (
+				74C3C0D51FD007B800BAE0C9 /* UUBar.m */,
+				74C3C0D61FD007B800BAE0C9 /* UUChartConst.h */,
+				74C3C0D71FD007B800BAE0C9 /* UUBarChart.h */,
+				74C3C0D81FD007B800BAE0C9 /* UUChartLabel.m */,
+				74C3C0D91FD007B800BAE0C9 /* UUChart.h */,
+				74C3C0DA1FD007B800BAE0C9 /* UULineChart.m */,
+				74C3C0DB1FD007B800BAE0C9 /* UUBar.h */,
+				74C3C0DC1FD007B800BAE0C9 /* UUBarChart.m */,
+				74C3C0DD1FD007B800BAE0C9 /* UUChartConst.m */,
+				74C3C0DE1FD007B800BAE0C9 /* UUChart.m */,
+				74C3C0DF1FD007B800BAE0C9 /* UUChartLabel.h */,
+				74C3C0E01FD007B800BAE0C9 /* UULineChart.h */,
+			);
+			path = UUChart;
+			sourceTree = "<group>";
+		};
+		D749DCD37B1C018CC20C4E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDAB901852275460B0B265E /* libPods-brain-hole-ios.a */,
+				CB96E2A8F3F90F678BE1263B /* libPods-brain-hole-iosTests.a */,
+				9ABA979D49AC25B5598F6058 /* libPods-brain-hole-iosUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +377,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 747FDC7B1FC69F0200A5C290 /* Build configuration list for PBXNativeTarget "brain-hole-ios" */;
 			buildPhases = (
+				76B4E960F20A9278C3C0B23B /* [CP] Check Pods Manifest.lock */,
 				747FDC4B1FC69F0200A5C290 /* Sources */,
 				747FDC4C1FC69F0200A5C290 /* Frameworks */,
 				747FDC4D1FC69F0200A5C290 /* Resources */,
+				401E77193B51AA47E3E10BBC /* [CP] Embed Pods Frameworks */,
+				732469B3216F966552CF39D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +397,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 747FDC7E1FC69F0200A5C290 /* Build configuration list for PBXNativeTarget "brain-hole-iosTests" */;
 			buildPhases = (
+				FC47BEF37D6C56B360C9678F /* [CP] Check Pods Manifest.lock */,
 				747FDC631FC69F0200A5C290 /* Sources */,
 				747FDC641FC69F0200A5C290 /* Frameworks */,
 				747FDC651FC69F0200A5C290 /* Resources */,
+				E90945EA2C89DC78C98B1DAF /* [CP] Embed Pods Frameworks */,
+				03D405EEFAE7D74E6EDFAFAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +418,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 747FDC811FC69F0200A5C290 /* Build configuration list for PBXNativeTarget "brain-hole-iosUITests" */;
 			buildPhases = (
+				14F6072FE4C0A12BFD4ECEEB /* [CP] Check Pods Manifest.lock */,
 				747FDC6E1FC69F0200A5C290 /* Sources */,
 				747FDC6F1FC69F0200A5C290 /* Frameworks */,
 				747FDC701FC69F0200A5C290 /* Resources */,
+				AE26B0D0A046D1D2901286E2 /* [CP] Embed Pods Frameworks */,
+				D9D196151887C573FCF97225 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,14 +507,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03D405EEFAE7D74E6EDFAFAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brain-hole-iosTests/Pods-brain-hole-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14F6072FE4C0A12BFD4ECEEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		401E77193B51AA47E3E10BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brain-hole-ios/Pods-brain-hole-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732469B3216F966552CF39D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brain-hole-ios/Pods-brain-hole-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B4E960F20A9278C3C0B23B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE26B0D0A046D1D2901286E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brain-hole-iosUITests/Pods-brain-hole-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D196151887C573FCF97225 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brain-hole-iosUITests/Pods-brain-hole-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90945EA2C89DC78C98B1DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brain-hole-iosTests/Pods-brain-hole-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC47BEF37D6C56B360C9678F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		747FDC4B1FC69F0200A5C290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749B3A9C1FCBB78E0034035E /* BHDataAnalyseViewController.m in Sources */,
+				74C3C0E11FD007B800BAE0C9 /* UUBar.m in Sources */,
+				748FC4051FCEA3130048DE36 /* BHSocialPointCell.m in Sources */,
+				749B3AAD1FCBFC500034035E /* SwipeView.m in Sources */,
+				74C3C0E31FD007B800BAE0C9 /* UULineChart.m in Sources */,
+				74C3C0E61FD007B800BAE0C9 /* UUChart.m in Sources */,
+				74C3C0D21FCFFA7E00BAE0C9 /* BHHistoryInfoCell.m in Sources */,
+				74C3C0E21FD007B800BAE0C9 /* UUChartLabel.m in Sources */,
+				749B3AAF1FCBFC500034035E /* DraggableCardView.m in Sources */,
+				74C3C0E41FD007B800BAE0C9 /* UUBarChart.m in Sources */,
+				748FC4011FCD624B0048DE36 /* BHSocialViewController.m in Sources */,
 				747FDC861FC6A08B00A5C290 /* BHHomeViewController.m in Sources */,
+				749B3A9F1FCBB7B90034035E /* BHWorldViewController.m in Sources */,
+				74C3C0E91FD009F800BAE0C9 /* BHBHDataAnalyseCell.m in Sources */,
 				747FDC621FC69F0200A5C290 /* main.m in Sources */,
+				747FDC921FC6E2B600A5C290 /* BHAboutMeViewController.m in Sources */,
 				747FDC541FC69F0200A5C290 /* AppDelegate.m in Sources */,
+				749B3AB31FCCFC010034035E /* BHWorldDetailModel.m in Sources */,
+				74C3C0E51FD007B800BAE0C9 /* UUChartConst.m in Sources */,
+				749B3AAE1FCBFC500034035E /* OverlayView.m in Sources */,
+				749B3AB61FCCFCC50034035E /* BHWorldDetailView.m in Sources */,
+				747FDC8C1FC6AB0000A5C290 /* BHIndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +824,14 @@
 		};
 		747FDC7C1FC69F0200A5C290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D92F8B73A1DA74F05228F17 /* Pods-brain-hole-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SCANH35NG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "brain-hole-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xihe.org.brain-hole-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,12 +841,14 @@
 		};
 		747FDC7D1FC69F0200A5C290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5496B748D420D951F5859FFF /* Pods-brain-hole-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SCANH35NG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "brain-hole-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xihe.org.brain-hole-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +858,7 @@
 		};
 		747FDC7F1FC69F0200A5C290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61697E40A98E67DB2D6849C /* Pods-brain-hole-iosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +874,7 @@
 		};
 		747FDC801FC69F0200A5C290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE4C9D936EE12F96FA5AF1A /* Pods-brain-hole-iosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +890,7 @@
 		};
 		747FDC821FC69F0200A5C290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7683E9E8D8F9743CF9B1B42 /* Pods-brain-hole-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SCANH35NG;
@@ -493,6 +905,7 @@
 		};
 		747FDC831FC69F0200A5C290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD3BEC332F32F9B16BF2EAA /* Pods-brain-hole-iosUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SCANH35NG;

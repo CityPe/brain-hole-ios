@@ -19,9 +19,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     BHHomeViewController *home = [[BHHomeViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
+    [nav.navigationBar setBarTintColor:[UIColor blackColor]];
     [nav.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
-    [nav.navigationBar setTintColor:[UIColor whiteColor]];
-    
+    [nav.navigationBar setTintColor:[UIColor blackColor]];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
